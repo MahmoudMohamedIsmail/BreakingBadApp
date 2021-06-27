@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="130" id="KGk-i7-Jjw" customClass="CharacterCell" customModule="BreakingBadApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="598" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="598" height="130"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R0e-SA-Tpn" customClass="DesignableUIView" customModule="BreakingBadApp" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="7.5" width="598" height="115"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="geD-IS-3FS">
+                                <rect key="frame" x="20" y="15" width="558" height="85"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundWallpaper_IMG" translatesAutoresizingMaskIntoConstraints="NO" id="150-bU-eGr" customClass="DesignableUIImageView" customModule="BreakingBadApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="21.5" width="42" height="42"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="42" id="J5N-No-Vye"/>
+                                            <constraint firstAttribute="height" constant="42" id="Wwe-1k-9VB"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="21"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9A-lC-rCm">
+                                        <rect key="frame" x="62" y="33" width="470" height="19"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RightArrow_ICON" translatesAutoresizingMaskIntoConstraints="NO" id="Td4-rk-lOS">
+                                        <rect key="frame" x="552" y="37" width="6" height="11"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="6" id="o0u-yU-SZw"/>
+                                            <constraint firstAttribute="height" constant="11" id="wf0-mX-ChL"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="geD-IS-3FS" firstAttribute="top" secondItem="R0e-SA-Tpn" secondAttribute="top" constant="15" id="FCx-UV-N4F"/>
+                            <constraint firstItem="geD-IS-3FS" firstAttribute="leading" secondItem="R0e-SA-Tpn" secondAttribute="leading" constant="20" id="Nha-jW-9yN"/>
+                            <constraint firstAttribute="bottom" secondItem="geD-IS-3FS" secondAttribute="bottom" constant="15" id="gQl-HU-RXT"/>
+                            <constraint firstAttribute="trailing" secondItem="geD-IS-3FS" secondAttribute="trailing" constant="20" id="qAf-3B-NTc"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="R0e-SA-Tpn" secondAttribute="bottom" constant="7.5" id="RYT-Zx-vhe"/>
+                    <constraint firstItem="R0e-SA-Tpn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7.5" id="SaB-LJ-gau"/>
+                    <constraint firstItem="R0e-SA-Tpn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qh9-9J-nfU"/>
+                    <constraint firstAttribute="trailing" secondItem="R0e-SA-Tpn" secondAttribute="trailing" id="uKq-Rt-pHs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="characterImage_ImgView" destination="150-bU-eGr" id="x2x-Z7-jP8"/>
+                <outlet property="characterName_lbl" destination="h9A-lC-rCm" id="TpJ-YL-HO7"/>
+                <outlet property="contentBackground_View" destination="R0e-SA-Tpn" id="Kwy-XV-nSV"/>
+            </connections>
+            <point key="canvasLocation" x="355.07246376811599" y="52.901785714285715"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="150-bU-eGr">
+            <size key="intrinsicContentSize" width="561" height="896"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="BackgroundWallpaper_IMG" width="561" height="896"/>
+        <image name="RightArrow_ICON" width="8.5" height="14"/>
+    </resources>
+</document>

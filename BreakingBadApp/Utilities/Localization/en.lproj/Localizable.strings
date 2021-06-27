@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+
+*/
+
+//MARK:- General
+
+"Ops!" = "Ops!";
+"Ok" = "Ok";
+"Success" = "Success";
+"Language" = "Language";
+"Cancel" = "Cancel";
+"Send" = "Send";
+"Done" = "Done";
+"Search" = "Search";

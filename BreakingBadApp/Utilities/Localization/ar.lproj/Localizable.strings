@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+
+*/
+
+//MARK:- General
+"Ops!" = "عذراً";
+"Ok" = "حسناً";
+"Success" = "نجح";
+"Language" = "اللغة";
+"Cancel" = "إلغاء";
+"Send" = "إرسال";
+"Done" = "تم";
+"Search" = "بحث";
+
