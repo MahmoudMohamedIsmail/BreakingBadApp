@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0F5176F4A70E27FEE79C14AC /* Pods_BreakingBadApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A04A2289741A0989308AF50 /* Pods_BreakingBadApp.framework */; };
+		7904847E26883AFA001BE62F /* Demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7904847D26883AFA001BE62F /* Demo.gif */; };
 		7935E4A826878DB500397F6C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935E4A726878DB500397F6C /* Constant.swift */; };
 		7935E4AF26878F0400397F6C /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935E4AC26878F0300397F6C /* ServiceError.swift */; };
 		7935E4B026878F0400397F6C /* AppServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7935E4AD26878F0300397F6C /* AppServiceClient.swift */; };
@@ -105,6 +106,7 @@
 		653C1D1A35DC4962E6A43BFD /* Pods-BreakingBadAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingBadAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BreakingBadAppTests/Pods-BreakingBadAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A04A2289741A0989308AF50 /* Pods_BreakingBadApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BreakingBadApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7862CCA4FEA1154C227DD85C /* Pods-BreakingBadApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BreakingBadApp.debug.xcconfig"; path = "Target Support Files/Pods-BreakingBadApp/Pods-BreakingBadApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7904847D26883AFA001BE62F /* Demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Demo.gif; sourceTree = "<group>"; };
 		7935E4A726878DB500397F6C /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		7935E4AC26878F0300397F6C /* ServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
 		7935E4AD26878F0300397F6C /* AppServiceClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppServiceClient.swift; sourceTree = "<group>"; };
@@ -211,6 +213,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7904847C26883A5F001BE62F /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7904847D26883AFA001BE62F /* Demo.gif */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		7935E4A626878DB500397F6C /* Constant */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,6 +292,7 @@
 		793B8C8F2683D1440001359E = {
 			isa = PBXGroup;
 			children = (
+				7904847C26883A5F001BE62F /* Demo */,
 				793B8C9A2683D1440001359E /* BreakingBadApp */,
 				793B8CB12683D14A0001359E /* BreakingBadAppTests */,
 				793B8CBC2683D14A0001359E /* BreakingBadAppUITests */,
@@ -769,6 +780,7 @@
 				793B8DD92683E1E20001359E /* Montserrat-Black.ttf in Resources */,
 				793B8D482683D1A10001359E /* ColorSystem.png in Resources */,
 				793B8DD52683E1E20001359E /* Montserrat-SemiBold.ttf in Resources */,
+				7904847E26883AFA001BE62F /* Demo.gif in Resources */,
 				796251AB2687417300AB7412 /* CharacterCell.xib in Resources */,
 				793B8E0F2683E44B0001359E /* SplashScreenVC.xib in Resources */,
 				793B8DD22683E1E20001359E /* Montserrat-Bold.ttf in Resources */,
